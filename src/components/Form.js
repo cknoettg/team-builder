@@ -26,8 +26,8 @@ const Form = props => {
       type="text" 
       placeholder="Enter name" 
       value={member.name}
-      name="name" />    
-      <button type="submit">Add Team Member Name</button>
+      name="name" /> 
+      <br></br>   
       <label htmlFor="email">E-mail</label>
       <input 
       id="email" 
@@ -35,8 +35,8 @@ const Form = props => {
       type="text" 
       placeholder="Enter e-mail address" 
       value={member.email}
-      name="email" />    
-      <button type="submit">Add Email Address</button>
+      name="email" /> 
+      <br></br>   
       <label htmlFor="role">Role</label>
       <input 
       id="role" 
@@ -44,8 +44,9 @@ const Form = props => {
       type="text" 
       placeholder="Enter role" 
       value={member.role}
-      name="role" />    
-      <button type="submit">Add Role</button>
+      name="role" /> 
+      <br></br>    
+      <button type="submit">Add New Team Member</button>
     </form>
   );
 };

@@ -7,7 +7,7 @@ import Form from "./components/Form";
 
 function App() {
 
-  const [members, setMembers] = useState([{name:""}]);
+  const [members, setMembers] = useState([{name:"", email:"", role:""}]);
   
   const addNewMember = member => {
     const newMember = {
