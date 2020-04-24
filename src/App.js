@@ -12,7 +12,9 @@ function App() {
   const addNewMember = member => {
     const newMember = {
       id: Date.now(), // gives you a unique id
-      name: member.name
+      name: member.name,
+      email: member.email,
+      role: member.role
     };
 
     //use spread operator to grab every member
