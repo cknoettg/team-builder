@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import data from "./data";
 import Members from "./components/Members";
-import MemberForm from "./components/MemberForm";
+import Form from "./components/Form";
 
 function App() {
 
@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <h1>My Team</h1>
-      <MemberForm addNewMember={addNewMember} />
+      <Form addNewMember={addNewMember} />
       <Members members={members} />
     </div>
   );
