@@ -16,7 +16,7 @@ const MemberForm = props => {
     setMember({ name: ""})
   }
 
-  console.log(note);
+  console.log(member);
   return (
     <form onSubmit={submitForm}>
       <label htmlFor="name">Name</label>
@@ -26,16 +26,8 @@ const MemberForm = props => {
       type="text" 
       placeholder="Enter name" 
       value={member.name}
-      name="name" />
-      {/* <label htmlFor="note">Note</label>
-      <textarea 
-      id="note"
-      name="body"
-      placeholder="Add your note here."
-      value={note.body}
-      onChange={handleChanges} */}
-      />
-      <button type="submit">Add Note</button>
+      name="name" />    
+      <button type="submit">Add Team Member</button>
     </form>
   );
 };
