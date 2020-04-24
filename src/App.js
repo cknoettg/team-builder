@@ -5,7 +5,7 @@ import data from "./data";
 
 function App() {
 
-  const [members, setMembers] = useState([id:"",name:""]);
+  const [members, setMembers] = useState([{name:""}]);
   
   const addNewMember = member => {
     const newMember = {
