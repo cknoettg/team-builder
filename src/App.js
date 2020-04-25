@@ -26,18 +26,6 @@ function App() {
       <h1>My React Team</h1>
       <Form addNewMember={addNewMember} />
       <Members members={members} />
-      
-      {/* we will decide later if we want to use this or not 
-      <div>
-        <ul>
-        {members.map(member => {
-            return [<li key={member.name}>{member.name}</li>,
-            <li key={member.email}>{member.email}</li>,
-            <li key={member.role}>{member.role}</li>,<br></br>
-          ]
-        })}
-        </ul>
-      </div> */}
     </div>
   );
 
