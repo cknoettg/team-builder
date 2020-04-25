@@ -21,6 +21,17 @@ function App() {
     setMembers([...members, newMember]);
   }  
 
+  //stretch - Edit Button Functionality
+  // use memberToEdit
+  const editButton = event => {
+    event.preventDefault();
+    //each time button is clicked, pull up form
+    //set current members values to value grabbed from form
+    //use addNewMember as guide
+    
+    //setMembers(props.name===newName);
+  }
+
   return (
     <div className="App">
       <h1>My React Team</h1>
