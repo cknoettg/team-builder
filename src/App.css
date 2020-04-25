@@ -3,7 +3,8 @@
 }
 
 .App h1 {
-  border: 1px solid red;
+  font-size: 96px;
+  color: #00ff40;
 }
 
 .App-logo {

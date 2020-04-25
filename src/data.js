@@ -22,5 +22,11 @@ export default [
     name: "Michael RazorBlades",
     email: "mr@lambda.com",
     role: "React Champion"
+},
+{
+    id: 5,
+    name: "Mukesh DaBeast",
+    email: "mj@lambda.com",
+    role: "React Champion"
 }
 ];

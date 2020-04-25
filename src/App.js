@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My Team</h1>
+      <h1>My React Team</h1>
       <Form addNewMember={addNewMember} />
       <Members members={members} />
       

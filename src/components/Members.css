@@ -1,11 +1,14 @@
 .member-list {
-    border: 1px solid green;
+    padding: 2%;
 }
 
 .member {
     border: 1px solid black;
-}
-
-h2 {
-    border: 1px solid red;
+    border-radius: 5px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 2%;
+    color: red;
+    background-color: #8e8d96;
 }
