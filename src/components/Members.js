@@ -1,4 +1,5 @@
 import React from "react";
+import './Members.css';
 
 const Members = props => {
   return (

@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.App h1 {
+  border: 1px solid red;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -27,7 +27,7 @@ function App() {
       <Form addNewMember={addNewMember} />
       <Members members={members} />
       
-      {/* we will decide later if we want to use this or not */}
+      {/* we will decide later if we want to use this or not 
       <div>
         <ul>
         {members.map(member => {
@@ -37,7 +37,7 @@ function App() {
           ]
         })}
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 
