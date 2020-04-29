@@ -14,7 +14,7 @@ const Form = props => {
   const submitForm = event => {
     event.preventDefault();
     props.addNewMember(member);
-    setMember({ name: ""})
+    setMember({ name: "", email: "", role: ""})
   }
 
   console.log(member);
