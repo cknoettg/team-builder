@@ -1,0 +1,14 @@
+.member-list {
+    padding: 2%;
+}
+
+.member {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 2%;
+    color: #2b2a28;
+    background-color: #8e8d96;
+}
